@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap"
+      rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <main>
+      <article class="landing_page">
+        <nav>
+          <img src="images/logo.svg" alt="logo_mobile" class="logo_mobile" />
+          <div class="logo_nav">
+            <img src="images/logo.svg" alt="logo" />
+            <div class="features">
+              <button type="button" class="dropdown_btn">Features</button>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow_down"
+                class="arrow_down" />
+            </div>
+            <div class="company">
+              <button type="button" class="dropdown_btn2">Company</button>
+              <img
+                src="images/icon-arrow-down.svg"
+                alt="arrow_down"
+                class="arrow_down" />
+            </div>
+
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+          </div>
+          <div class="login">
+            <a href="#">Login</a> <a href="#">Register</a>
+          </div>
+          <div class="menu-toggle">
+            <img src="images/icon-menu.svg" alt="menu" class="menu" />
+          </div>
+        </nav>
+
+        <div class="dropdown_menu">
+          <div class="dropdowns">
+            <img
+              src="images/icon-todo.svg"
+              alt="todo_icon"
+              class="dropdown_icons" />
+            <a href="#">Todo list</a>
+          </div>
+          <div class="dropdowns">
+            <img
+              src="images/icon-calendar.svg"
+              alt="calendar_icon"
+              class="dropdown_icons" />
+            <a href="#">Calendar</a>
+          </div>
+          <div class="dropdowns">
+            <img
+              src="images/icon-reminders.svg"
+              alt="reminders_icon"
+              class="dropdown_icons" />
+            <a href="#">Reminders</a>
+          </div>
+          <div class="dropdowns">
+            <img
+              src="images/icon-planning.svg"
+              alt="planning_icon"
+              class="dropdown_icons" />
+            <a href="#">Planning</a>
+          </div>
+        </div>
+
+        <div class="dropdown_menu2">
+          <a href="#">History</a>
+          <a href="#">Our team</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="main_content">
+          <div class="text_content">
+            <h1 class="title">Make <span>remote work</span></h1>
+            <p class="comment">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <a href="#" class="learn_more">Learn more</a>
+            <div class="flex_logo">
+              <img src="images/client-databiz.svg" alt="client-databiz" />
+              <img src="images/client-audiophile.svg" alt="client-databiz" />
+              <img src="images/client-meet.svg" alt="client-databiz" />
+              <img src="images/client-maker.svg" alt="client-databiz" />
+            </div>
+          </div>
+          <img
+            src="images/image-hero-desktop.png"
+            alt="image-hero"
+            id="imageHero"
+            class="imageHero" />
+        </div>
+      </article>
+
+      <div class="mobile_menu">
+        <div class="close_toggle">
+          <img src="images/icon-close-menu.svg" alt="menu" class="menu" />
+        </div>
+        <div class="features_mobile">
+          <button type="button" class="dropdown_btn_mobile">Features</button>
+          <img
+            src="images/icon-arrow-down.svg"
+            alt="arrow_down"
+            class="arrow_down_mobile" />
+          <div class="dropdown_menu_mobile">
+            <div class="dropdowns">
+              <img
+                src="images/icon-todo.svg"
+                alt="todo_icon"
+                class="dropdown_icons" />
+              <a href="#">Todo list</a>
+            </div>
+            <div class="dropdowns">
+              <img
+                src="images/icon-calendar.svg"
+                alt="calendar_icon"
+                class="dropdown_icons" />
+              <a href="#">Calendar</a>
+            </div>
+            <div class="dropdowns">
+              <img
+                src="images/icon-reminders.svg"
+                alt="reminders_icon"
+                class="dropdown_icons" />
+              <a href="#">Reminders</a>
+            </div>
+            <div class="dropdowns">
+              <img
+                src="images/icon-planning.svg"
+                alt="planning_icon"
+                class="dropdown_icons" />
+              <a href="#">Planning</a>
+            </div>
+          </div>
+        </div>
+        <div class="company_mobile">
+          <button type="button" class="dropdown_btn_mobile2">Company</button>
+          <img
+            src="images/icon-arrow-down.svg"
+            alt="arrow_down"
+            class="arrow_down_mobile2" />
+          <div class="dropdown_menu_mobile2">
+            <a href="#">History</a>
+            <a href="#">Our team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+        <a href="#">Careers</a>
+        <a href="#"> About</a>
+        <div class="sign">
+          <a href="#">Login</a>
+          <a href="#" class="register">Register</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Jerico Franco</a>.
+    </footer>
+
+    <script src="users.js"></script>
+  </body>
+</html>
