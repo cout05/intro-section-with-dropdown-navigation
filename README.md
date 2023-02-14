@@ -20,5 +20,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/cout05/intro-section-with-dropdown-navigation.git)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
